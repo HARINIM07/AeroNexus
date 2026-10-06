@@ -1,0 +1,24 @@
+Check,Flagged_Count,Explanation
+Negative distance,0,Distance should not be negative.
+Negative taxi-out time,0,Taxi-out duration should not be negative.
+Negative taxi-in time,0,Taxi-in duration should not be negative.
+Invalid cancellation flag,0,Cancellation flag should be 0 or 1.
+Invalid diversion flag,0,Diversion flag should be 0 or 1.
+Both cancelled and diverted,0,Review flights marked both cancelled and diverted.
+Cancellation code on non-cancelled flight,0,Review non-cancelled flights containing an actual cancellation code.
+Cancelled flight without cancellation code,0,Review cancelled flights without a real cancellation code.
+Invalid rating: Inflight_Wifi_Service,0,Expected rating range is 0 to 5.
+Invalid rating: Departure_Arrival_Time_Convenience,0,Expected rating range is 0 to 5.
+Invalid rating: Ease_of_Online_Booking,0,Expected rating range is 0 to 5.
+Invalid rating: Gate_Location,0,Expected rating range is 0 to 5.
+Invalid rating: Food_and_Drink,0,Expected rating range is 0 to 5.
+Invalid rating: Online_Boarding,0,Expected rating range is 0 to 5.
+Invalid rating: Seat_Comfort,0,Expected rating range is 0 to 5.
+Invalid rating: Inflight_Entertainment,0,Expected rating range is 0 to 5.
+Invalid rating: On_Board_Service,0,Expected rating range is 0 to 5.
+Invalid rating: Leg_Room_Service,0,Expected rating range is 0 to 5.
+Invalid rating: Baggage_Handling,0,Expected rating range is 0 to 5.
+Invalid rating: Checkin_Service,0,Expected rating range is 0 to 5.
+Invalid rating: Inflight_Service,0,Expected rating range is 0 to 5.
+Invalid rating: Cleanliness,0,Expected rating range is 0 to 5.
+Negative ticket price,0,Ticket price should not be negative.
