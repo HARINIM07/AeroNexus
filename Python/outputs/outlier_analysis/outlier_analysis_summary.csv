@@ -1,0 +1,8 @@
+Dataset,Variable,Q1,Q3,IQR,IQR_Lower_Bound,IQR_Upper_Bound,IQR_Outlier_Count,IQR_Outlier_Percentage,Z_Score_Outlier_Count
+Flight Operations,Dep_Delay_Min,-4.0,25.0,29.0,-47.5,68.5,2215,11.03,592
+Flight Operations,Arr_Delay_Min,-14.0,23.0,37.0,-69.5,78.5,1845,9.19,541
+Flight Operations,Taxi_Out_Min,13.0,24.0,11.0,-3.5,40.5,1070,5.33,0
+Flight Operations,Taxi_In_Min,5.0,12.0,7.0,-5.5,22.5,1330,6.62,697
+Flight Operations,Actual_Elapsed_Time_Min,97.0,212.0,115.0,-75.5,384.5,1993,9.93,12
+Flight Operations,Distance_Miles,627.0,1585.0,958.0,-810.0,3022.0,0,0.0,0
+Passenger Satisfaction,Ticket_Price,164.3675,299.7175,135.34999999999997,-38.65749999999994,502.74249999999995,388,3.33,157
