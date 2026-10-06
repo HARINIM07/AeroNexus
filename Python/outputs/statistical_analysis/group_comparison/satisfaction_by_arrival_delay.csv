@@ -1,0 +1,5 @@
+Arrival_Delay_Group,count,median,Mean_Satisfaction_Score
+Early or on time,6245,2.0,2.034
+1-15 min late,1878,2.0,2.025
+16-60 min late,2088,2.0,1.996
+Over 60 min late,1429,2.0,2.041
