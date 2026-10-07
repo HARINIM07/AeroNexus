@@ -1,3 +1,5 @@
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/664108fd-6e42-49d9-810f-d3b82435a50f" />
+
 # ✈️ AeroNexus – Airline Operations & Passenger Satisfaction Analytics
 
 > **A Power BI-based end-to-end airline analytics project** that combines flight operations, airline performance, airport intelligence, route analysis and passenger satisfaction to identify patterns that can support better operational and customer-experience decisions.
