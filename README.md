@@ -2,14 +2,14 @@
 
 > **A Power BI-based end-to-end airline analytics project** that combines flight operations, airline performance, airport intelligence, route analysis and passenger satisfaction to identify patterns that can support better operational and customer-experience decisions.
 
-[![Excel](https://img.shields.io/badge/Excel-Data%20Preparation-green?logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/microsoft-365/excel)
-[![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-blue?logo=microsoftpowerbi&logoColor=white)](https://learn.microsoft.com/power-query/)
-[![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-yellow?logo=powerbi&logoColor=white)](https://www.microsoft.com/power-platform/products/power-bi)
-[![Data Modelling](https://img.shields.io/badge/Data%20Modelling-Table%20Relationships-purple)](https://learn.microsoft.com/power-bi/transform-model/desktop-relationships-understand)
-[![DAX](https://img.shields.io/badge/DAX-Calculations-orange?logo=powerbi&logoColor=white)](https://learn.microsoft.com/dax/)
-[![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github&logoColor=white)](https://github.com/)
+[![Excel](https://img.shields.io/badge/Excel-1E88E5?logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/microsoft-365/excel)
+[![Power Query](https://img.shields.io/badge/Power%20Query-1976D2?logo=microsoftpowerbi&logoColor=white)](https://learn.microsoft.com/power-query/)
+[![MySQL](https://img.shields.io/badge/MySQL-1565C0?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Python](https://img.shields.io/badge/Python-2196F3?logo=python&logoColor=white)](https://www.python.org/)
+[![Power BI](https://img.shields.io/badge/Power%20BI-00A6D6?logo=powerbi&logoColor=white)](https://www.microsoft.com/power-platform/products/power-bi)
+[![Data%20Modelling](https://img.shields.io/badge/Data%20Modelling-0077B6?logoColor=white)](https://learn.microsoft.com/power-bi/transform-model/desktop-relationships-understand)
+[![DAX](https://img.shields.io/badge/DAX-00B8D4?logo=powerbi&logoColor=white)](https://learn.microsoft.com/dax/)
+[![GitHub](https://img.shields.io/badge/GitHub-0B3D5C?logo=github&logoColor=white)](https://github.com/)
 
 ---
 
