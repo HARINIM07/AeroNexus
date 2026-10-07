@@ -7,7 +7,8 @@
 [![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-yellow?logo=powerbi&logoColor=white)](https://www.microsoft.com/power-platform/products/power-bi)
-[![DAX](https://img.shields.io/badge/DAX-Analytics-orange?logo=powerbi&logoColor=white)](https://learn.microsoft.com/dax/)
+[![Data Modelling](https://img.shields.io/badge/Data%20Modelling-Table%20Relationships-purple)](https://learn.microsoft.com/power-bi/transform-model/desktop-relationships-understand)
+[![DAX](https://img.shields.io/badge/DAX-Calculations-orange?logo=powerbi&logoColor=white)](https://learn.microsoft.com/dax/)
 [![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github&logoColor=white)](https://github.com/)
 
 ---
