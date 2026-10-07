@@ -66,15 +66,15 @@ AeroNexus uses **synthetic datasets created specifically for this project**. The
 
 ### ✈️ Flight Operations Dataset
 
-**20,080 rows × 41 columns**
+**20,080 rows × 58 columns**
 
 **Reference Source:** U.S. Bureau of Transportation Statistics (BTS) — Airline On-Time Performance data.
 
-🔗 [BTS TranStats – Airline On-Time Performance Data](https://www.transtats.bts.gov/DL_SelectFields.aspx?QO_fu146_anzr=%5d&gnoyr_VQ=FGJ)
+🔗 [BTS – Search for On-Time Flight Data](https://www.transtats.bts.gov/ONTIME/)
 
 ### 👥 Passenger Satisfaction Dataset
 
-**11,640 rows × 21 columns**
+**11,640 rows × 25 columns**
 
 **Reference Source:** Kaggle – Airline Passenger Satisfaction dataset.
 
@@ -114,3 +114,332 @@ AeroNexus uses **synthetic datasets created specifically for this project**. The
 📈 Interactive Dashboard Development
                     ↓
 📝 Final Documentation
+
+🔬 Methodology
+🧹 Data Preparation
+
+Data was inspected, cleaned and transformed using Excel and Power Query to improve consistency, usability and analytical quality.
+
+🗄️ Relational Data Management
+
+The cleaned data was loaded into MySQL, where tables, relationships, keys and normalisation were implemented to organise the data efficiently and reduce redundancy.
+
+🔍 Data Validation
+
+Data quality checks were performed across Excel, SQL and Python to identify duplicates, NULL values, inconsistent values, invalid ranges and business-rule issues.
+
+📊 Exploratory & Descriptive Analysis
+
+Python was used to explore the datasets and understand distributions, operational patterns, passenger satisfaction and important numerical characteristics.
+
+🚨 Outlier Detection
+
+Potential outliers were analysed using both IQR and Z-score methods to identify unusual operational and passenger-related values.
+
+🧪 Statistical Validation
+
+Two main statistical approaches were conducted:
+
+📈 Spearman Correlation Analysis – used to measure the strength and direction of monotonic relationships between selected numerical variables.
+🧪 Chi-square Test of Independence – used to determine whether selected categorical factors are statistically associated with passenger satisfaction.
+
+Cramér's V was additionally used to measure the strength of categorical associations identified through the Chi-square analysis.
+
+📊 Power BI Analysis
+
+The validated data will be modelled in Power BI, where DAX measures and interactive visualisations will be developed to support business analysis and decision-making.
+
+🧹 Data Preparation & Cleaning
+🔎 Inspect dataset structure, column names and data types
+✂️ Remove unwanted spaces using Trim
+🔄 Reorder columns
+🔢 Round off decimal columns where required
+✏️ Rename columns for consistency and readability
+🗑️ Remove unwanted columns
+♻️ Remove duplicate records
+🔍 Review and correct inconsistent values and formatting
+✅ Validate numerical fields against expected ranges
+🎯 Check whether the actual satisfaction value matches the expected satisfaction
+🧩 Replace NULL values where required
+⏱️ Create a new custom column using logic to convert values into the required time format
+🗄️ SQL Data Analysis & Validation
+🏗️ Database schema design and table creation
+🔢 Data type optimisation
+🧩 Data normalisation and dimensional table design
+🔑 Primary Key and Foreign Key implementation
+🔗 Table relationships and referential integrity validation
+♻️ Duplicate and uniqueness checks
+🚫 NULL, data consistency and quality validation
+✅ Business-rule validation using SQL queries
+🔀 SQL joins to verify table relationships
+✈️ Flight operations analysis
+⏱️ Delay, cancellation and diversion analysis
+👥 Passenger satisfaction and service-quality analysis
+📊 Aggregations and percentage-based analysis
+📈 Preparing integrated and validated data for Power BI data modelling
+🐍 Python Data Analysis & Statistical Validation
+🔌 MySQL database connectivity and data extraction
+🔎 Exploratory Data Analysis (EDA)
+✈️ Flight operations summary and descriptive analysis
+❌ Cancellation and diversion rate analysis
+👥 Passenger satisfaction distribution and percentage analysis
+🚨 Outlier detection using IQR and Z-score methods
+🔍 Operational anomaly and data-quality checks
+✅ Business-rule validation for flight operations
+📏 Rating and ticket-price range validation
+🛠️ Feature engineering for route, age group and delay categories
+📈 Spearman correlation analysis
+🧪 Chi-square tests for categorical factors
+📊 Cramér's V for association strength
+⏱️ Passenger satisfaction analysis by arrival-delay groups
+📤 Automated export of analysis results to CSV files
+🔗 Data Model & Relationships
+
+Status: In Progress
+
+The project uses a relational data model to organise flight operations and passenger-related information while reducing redundancy.
+
+The database design includes the implementation of:
+
+🔑 Primary Keys
+🔗 Foreign Keys
+🔄 Table relationships
+🧩 Normalisation
+🔀 Relational joins
+✅ Referential integrity validation
+
+The final Power BI data model and relationship structure will be documented after the dashboard data modelling stage is completed.
+
+🧮 DAX Measures & Calculations
+
+Status: In Progress
+
+DAX measures and calculated fields will be developed in Power BI to support:
+
+📊 Operational performance analysis
+⏱️ Delay analysis
+❌ Cancellation and diversion analysis
+👥 Passenger analysis
+⭐ Satisfaction analysis
+📈 KPI calculations
+📊 Percentage and aggregation-based business metrics
+
+The final DAX measures will be documented after Power BI development is completed.
+
+📊 Dashboard Pages & Features
+
+Status: In Progress
+
+The Power BI dashboard is currently under development.
+
+The final dashboard will bring together airline operations, airport intelligence, route performance and passenger satisfaction analysis through interactive Power BI pages.
+
+Each completed dashboard page will be documented using:
+
+🔹 Key Features
+
+The main analytical capabilities provided by the page.
+
+🎯 KPI Cards
+
+Important business metrics displayed for quick performance monitoring.
+
+🎚️ Slicers
+
+Interactive filters that allow users to analyse specific airlines, airports, routes, passenger groups and other relevant dimensions.
+
+📈 Visuals
+
+Charts and visualisations used to analyse operational and passenger-related patterns.
+
+💼 Business Questions Covered
+
+The key business questions answered by each dashboard page.
+
+Final page names, KPIs, slicers, visuals and business questions will be added after Power BI dashboard development is completed.
+
+🖼️ Dashboard Preview
+
+Status: In Progress
+
+Power BI dashboard screenshots and preview images will be added after the final dashboard design and visualisations are completed.
+
+💡 Key Insights & Project Outcomes
+
+The analysis provides a structured understanding of:
+
+✈️ Flight operational performance
+🏢 Airline-level performance patterns
+🛫 Airport-level operational behaviour
+🗺️ Route-level performance
+⏱️ Delay patterns and operational disruptions
+❌ Cancellation and diversion behaviour
+👥 Passenger characteristics and travel patterns
+⭐ Passenger service and experience ratings
+💳 Ticket-price patterns
+😊 Passenger satisfaction distribution
+🔎 Relationships between operational factors, passenger characteristics and satisfaction
+
+The statistical analysis also helps distinguish between observable patterns and statistically supported associations, providing additional validation for the analytical findings.
+
+The project identifies factors and areas that can help the airline make decisions to improve satisfaction by highlighting operational problem areas, passenger experience patterns and areas that may require further attention.
+
+🚀 How to Run / Use the Project
+1️⃣ Clone the Repository
+git clone https://github.com/HARINIM07/AeroNexus.git
+2️⃣ Explore the Datasets
+
+The project datasets are available under:
+
+Dataset/
+├── raw_data/
+└── cleaned_data/
+3️⃣ Run the SQL Analysis
+
+Open the SQL scripts available under:
+
+MySQL/
+
+The scripts cover passenger satisfaction analysis, flight operations analysis and the project data model.
+
+4️⃣ Set Up the Python Environment
+
+Navigate to the Python directory:
+
+cd Python
+
+Create a virtual environment:
+
+python -m venv venv
+
+Activate the environment on Windows:
+
+venv\Scripts\activate
+
+Install the required Python packages according to the project requirements.
+
+5️⃣ Run the Python Analysis
+
+Python scripts are available under:
+
+Python/scripts/
+
+The generated analysis results are organised under:
+
+Python/outputs/
+6️⃣ Power BI
+
+The validated data will be used in Power BI for data modelling, DAX calculations and interactive dashboard development.
+
+🗂️ Repository Structure
+AeroNexus/
+│
+├── 📂 Dataset/
+│   ├── 📁 raw_data/
+│   │   ├── Flight_Operations_Raw.xlsx
+│   │   └── Passenger_Satisfaction_Raw.xlsx
+│   │
+│   └── 📁 cleaned_data/
+│       ├── Flight_Operations_Cleaned.csv
+│       └── Passenger_Satisfaction_Cleaned.csv
+│
+├── 🗄️ MySQL/
+│   ├── 01_passenger_satisfaction_analysis.sql
+│   ├── 02_flight_operations_analysis.sql
+│   └── 03_five_table_data_model.sql
+│
+├── 🐍 Python/
+│   ├── README.md
+│   │
+│   ├── 📁 scripts/
+│   │   ├── README.md
+│   │   ├── aeronexus_eda.py
+│   │   ├── aeronexus_outlier_analysis.py
+│   │   └── aeronexus_statistical_analysis.py
+│   │
+│   └── 📁 outputs/
+│       ├── README.md
+│       ├── 📁 eda/
+│       ├── 📁 outlier_analysis/
+│       ├── 📁 data_quality/
+│       └── 📁 statistical_analysis/
+│
+├── .gitignore
+└── README.md
+🧠 Skills Developed & Key Learnings
+📊 Data Analytics
+Exploratory Data Analysis
+Descriptive Statistics
+Outlier Detection
+Statistical Validation
+Data Quality Analysis
+Business-focused Data Analysis
+📗 Excel & Power Query
+Data inspection and profiling
+Data cleaning
+Data transformation
+Data validation
+Custom column creation
+🗄️ SQL & Database Management
+Relational database design
+Table creation
+Data normalisation
+Primary and Foreign Keys
+Joins
+Aggregations
+Data quality validation
+Business-rule validation
+🐍 Python
+MySQL connectivity
+Pandas-based analysis
+Exploratory Data Analysis
+Statistical analysis
+IQR and Z-score outlier detection
+Feature engineering
+Automated CSV output generation
+📊 Power BI
+Data modelling
+DAX
+Business intelligence
+Interactive data visualisation
+Dashboard development
+💼 Business & Analytical Thinking
+Translating business problems into analytical questions
+Identifying operational problem areas
+Analysing passenger experience patterns
+Interpreting relationships between business factors
+Converting analytical results into decision-support insights
+🔮 Future Improvements
+📊 Complete and enhance the interactive Power BI dashboard
+🧮 Add advanced DAX measures and calculations
+🤖 Integrate machine learning for passenger satisfaction prediction
+📈 Add predictive analytics for operational performance
+🚨 Develop advanced risk and anomaly detection
+🗺️ Expand route and airport network analysis
+🔄 Introduce automated data refresh pipelines
+☁️ Explore cloud-based deployment and reporting
+✅ Conclusion
+
+AeroNexus is an end-to-end airline analytics project that brings together flight operations, airline performance, airport intelligence, route performance and passenger experience to provide a broader understanding of airline performance and customer satisfaction.
+
+The project uses Excel / Power Query, MySQL, Python and Power BI as different stages of a single analytical workflow. Data is first prepared and cleaned, then structured and validated through a relational database, followed by exploratory analysis, outlier detection and statistical validation. The validated data is then used for Power BI-based business intelligence and interactive analysis.
+
+By combining operational factors such as delays, cancellations, diversions, airlines, airports and routes with passenger-related factors such as age, gender, passenger type, travel class, travel type, ticket price and service ratings, AeroNexus helps identify patterns associated with passenger satisfaction.
+
+The project is intended to help an airline move beyond simply measuring operational performance and instead understand how operational disruptions and passenger experience factors are connected to customer satisfaction.
+
+It identifies factors and areas that can help the airline make decisions to improve satisfaction by highlighting operational problem areas, passenger experience patterns and areas where further attention may be required.
+
+Ultimately, AeroNexus provides a data-driven foundation for airline decision-making, helping organisations better understand their operations and passenger experience and make more informed decisions aimed at improving service quality, reducing operational issues and supporting higher passenger satisfaction.
+
+👩‍💻 Author & Contact
+
+Harini M
+
+📍 Chennai, India
+
+📧 Email: mharini0701@gmail.com
+
+🔗 GitHub: HARINIM07
+
+🔗 LinkedIn: linkedin.com/in/harinim07
