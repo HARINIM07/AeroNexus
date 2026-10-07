@@ -2,14 +2,18 @@
 
 > **A Power BI-based end-to-end airline analytics project** that combines flight operations, airline performance, airport intelligence, route analysis and passenger satisfaction to identify patterns that can support better operational and customer-experience decisions.
 
+<div align="center">
+
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=white)](https://www.microsoft.com/power-platform/products/power-bi)
+[![Data%20Modelling](https://img.shields.io/badge/Data%20Modelling-7B61FF?logoColor=white)](https://learn.microsoft.com/power-bi/transform-model/desktop-relationships-understand)
+[![DAX](https://img.shields.io/badge/DAX-D94F4F?logo=powerbi&logoColor=white)](https://learn.microsoft.com/dax/)
 [![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/microsoft-365/excel)
 [![Power Query](https://img.shields.io/badge/Power%20Query-0078D4?logo=microsoftpowerbi&logoColor=white)](https://learn.microsoft.com/power-query/)
 [![MySQL](https://img.shields.io/badge/MySQL-00897B?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Python](https://img.shields.io/badge/Python-E67E22?logo=python&logoColor=white)](https://www.python.org/)
-[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=white)](https://www.microsoft.com/power-platform/products/power-bi)
-[![Data%20Modelling](https://img.shields.io/badge/Data%20Modelling-7B61FF?logoColor=white)](https://learn.microsoft.com/power-bi/transform-model/desktop-relationships-understand)
-[![DAX](https://img.shields.io/badge/DAX-D94F4F?logo=powerbi&logoColor=white)](https://learn.microsoft.com/dax/)
 [![GitHub](https://img.shields.io/badge/GitHub-24292F?logo=github&logoColor=white)](https://github.com/)
+
+</div>
 
 ---
 
