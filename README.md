@@ -2,6 +2,14 @@
 
 > **A Power BI-based end-to-end airline analytics project** that combines flight operations, airline performance, airport intelligence, route analysis and passenger satisfaction to identify patterns that can support better operational and customer-experience decisions.
 
+[![Excel](https://img.shields.io/badge/Excel-Data%20Preparation-green?logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/microsoft-365/excel)
+[![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-blue?logo=microsoftpowerbi&logoColor=white)](https://learn.microsoft.com/power-query/)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-yellow?logo=powerbi&logoColor=white)](https://www.microsoft.com/power-platform/products/power-bi)
+[![DAX](https://img.shields.io/badge/DAX-Analytics-orange?logo=powerbi&logoColor=white)](https://learn.microsoft.com/dax/)
+[![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github&logoColor=white)](https://github.com/)
+
 ---
 
 ## 📖 Project Overview
