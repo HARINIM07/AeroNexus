@@ -429,15 +429,13 @@ The Passenger Satisfaction Analysis page explores satisfaction levels, passenger
 
 ### 📈 Dashboard Overview
 
-<br><br><br>
-
 ---
 
 ### 🏠 Home Page
 
-<img width="1093" height="528" alt="image" src="https://github.com/user-attachments/assets/d05f857c-5ef7-4b47-9454-330b966f9825" />
+<br>
 
-<br><br><br>
+<img width="1093" height="528" alt="image" src="https://github.com/user-attachments/assets/d05f857c-5ef7-4b47-9454-330b966f9825" />
 
 ---
 
@@ -445,7 +443,6 @@ The Passenger Satisfaction Analysis page explores satisfaction levels, passenger
 
 <img width="1127" height="623" alt="image" src="https://github.com/user-attachments/assets/1fe2aa1e-c7fb-4799-a107-0ca2b0238f77" />
 
-<br><br><br>
 
 ---
 
