@@ -483,13 +483,14 @@ The Passenger Satisfaction Analysis page explores satisfaction levels, passenger
 
 ### ❌ Cancellation & Diversion Analysis
 
+
 <img width="1140" height="622" alt="image" src="https://github.com/user-attachments/assets/1474fd21-f3d0-473b-8b9b-034ec93dc3e4" />
 
-<br><br><br>
 
 ---
 
 ### 👥 Passenger Satisfaction Analysis
+
 
 <img width="1132" height="618" alt="image" src="https://github.com/user-attachments/assets/efcc8864-977f-44a5-95dc-760df61ad2bb" />
 
