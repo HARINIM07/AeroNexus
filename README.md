@@ -224,6 +224,279 @@ The validated data will be modelled in **Power BI**, where DAX measures and inte
 
 ---
 
+## 📊 Power BI Data Modelling
+
+Power BI is used to integrate the validated datasets, establish relationships between tables, create DAX measures and develop interactive visualisations for airline operations and passenger satisfaction analysis.
+
+The data model connects flight operations, passenger satisfaction and related lookup tables to support analysis across **airlines, airports, routes, flight delays, cancellations, diversions and passenger characteristics**.
+
+### 🔗 Data Model
+
+<img width="885" height="715" alt="image" src="https://github.com/user-attachments/assets/8643e364-367e-43ca-9439-5c588e7e72a0" />
+
+
+The Power BI data model establishes relationships between the datasets to support consistent filtering, accurate aggregations and interactive analysis across the dashboard.
+
+---
+
+## 📈 Dashboard Preview
+
+The AeroNexus Power BI dashboard provides an interactive overview of airline operations and passenger satisfaction through dedicated analytical pages.
+
+The dashboard combines **KPI cards, interactive charts, slicers and data-driven comparisons** to explore operational performance, identify patterns and understand passenger satisfaction across different operational and passenger-related factors.
+
+---
+
+### 🏠 1. Home Page
+
+The Home page serves as the landing page for the AeroNexus dashboard, featuring an aviation-themed design and interactive navigation buttons to access the individual analytical pages.
+
+---
+
+### 📊 2. Overview
+
+The Overview page provides a high-level summary of flight operations and passenger satisfaction through key performance indicators and comparative visualisations.
+
+**KPI Cards**
+- Total Flights
+- Total Passengers
+- Total Distance Flown
+
+**Charts**
+- Passenger Satisfaction by Airline
+- Passenger Satisfaction by Route
+- Passenger Satisfaction by Arrival Delay Category
+- Passenger Satisfaction by Flight Disruption Status
+
+**Business Questions Covered**
+- What is the overall flight volume and total distance flown?
+- How does passenger satisfaction vary across airlines and routes?
+- How does satisfaction differ across arrival-delay categories and flight disruption statuses?
+
+---
+
+### ✈️ 3. Airline Analysis
+
+The Airline Analysis page evaluates airline-level operational performance, flight outcomes and differences in cancellation and on-time performance.
+
+**KPI Cards**
+- Total Airlines
+- Average Flight Duration
+- Average Flight Distance
+
+**Charts**
+- Flight Status Distribution
+- Cancellation Rate by Airline
+- Flight Volume vs Satisfaction Records by Airline
+- On-Time Performance by Airline
+
+**Business Questions Covered**
+- How are flights distributed across airlines?
+- Which airlines have higher cancellation rates?
+- How does on-time performance vary across airlines?
+- What are the average flight duration and distance?
+
+---
+
+### 🛫 4. Airport Analysis
+
+The Airport Analysis page examines airport-level flight activity and operational performance to identify differences between airports.
+
+**KPI Cards**
+- Airports Served
+- Busiest Airport
+- Total Airport Traffic
+
+**Charts**
+- Departures by Origin Airport
+- Arrivals by Destination Airport
+- Airport Traffic by State
+- Second Diversion Stops by Airport
+
+**Business Questions Covered**
+- Which airports handle the highest number of flights?
+- Which airports experience the highest average departure and arrival delays?
+- Which airports have the highest flight cancellation rates?
+- How does flight activity vary across airports?
+- How does departure performance compare with arrival performance across airports?
+  
+---
+
+### 🗺️ 5. Routes Analysis
+
+The Routes Analysis page explores route-level performance, focusing on flight volume, delays, cancellations and route distance.
+
+**KPI Cards**
+- Unique Routes
+- Popular Route
+- Longest Route
+- Maximum Distance
+- Minimum Distance
+
+**Charts**
+- Top 5 Routes by Average Arrival Delay (Minutes)
+- Most Cancelled Routes
+- Average Route Distance vs Flight Volume
+- Top 10 Busiest Routes
+
+**Business Questions Covered**
+- How many unique routes are present in the dataset?
+- Which routes have the highest flight volumes?
+- Which routes experience the greatest average arrival delays?
+- Which routes have the highest number of cancellations?
+- How does route distance relate to flight volume?
+
+---
+
+### ⏱️ 6. Delay Analysis
+
+The Delay Analysis page examines departure and arrival delays, their distribution and contributing causes to identify potential operational improvement areas.
+
+**KPI Cards**
+- Total Delay Minutes
+- Average Departure Delay
+- Average Arrival Delay
+
+**Charts**
+- Departure vs Arrival Delay by Airline
+- Delay Causes Analysis
+- Monthly Delay Trends
+- Departure vs Arrival Delay by Time Block
+
+**Business Questions Covered**
+- What is the total delay time accumulated across flights?
+- What are the average departure and arrival delays?
+- How do departure and arrival delays compare across airlines?
+- Which factors contribute the most to flight delays?
+- How do flight delays change from month to month?
+- Which scheduled time blocks experience higher departure and arrival delays?
+
+---
+
+### ❌ 7. Cancellation & Diversion Analysis
+
+The Cancellation & Diversion Analysis page investigates cancelled and diverted flights, their operational characteristics and the factors associated with disruptions.
+
+**KPI Cards**
+- Cancelled Flights
+- Diverted Flights
+- Average Additional Arrival Delay Flights
+
+**Charts**
+- Cancellation Reason Analysis
+- Average Ground Time by Diversion Stop
+- Diversion Elapsed Time vs Distance
+- Flight Outcome Distribution
+
+**Additional Indicators**
+- Cancellation Rate
+- Diversion Rate
+
+**Business Questions Covered**
+- How many flights were cancelled or diverted?
+- What proportion of flights experienced cancellations or diversions?
+- How are cancellations distributed across cancellation reasons?
+- How does ground time differ between diversion stops?
+- How do diversion distance and elapsed time relate?
+
+---
+
+### 👥 8. Passenger Satisfaction Analysis
+
+The Passenger Satisfaction Analysis page explores satisfaction levels, passenger characteristics, ticket-price patterns and service ratings.
+
+**KPI Cards**
+- Satisfaction Records
+- Satisfaction Rate
+- Average Ticket Price
+
+**Charts**
+- Satisfaction Distribution
+- Average Ticket Price by Class and Satisfaction
+- Satisfaction by Age Group
+- Service Rating Analysis
+
+**Business Questions Covered**
+- How many passenger satisfaction records are available for analysis?
+- What percentage of passengers are satisfied with their flight experience?
+- How are passengers distributed across satisfied, neutral and dissatisfied categories?
+- How does average ticket price vary across travel classes and satisfaction levels?
+- How does passenger satisfaction differ across age groups?
+- Which service attributes receive higher or lower ratings?
+- Which service areas may require improvement to enhance passenger satisfaction?
+
+---
+
+### 📈 Dashboard Overview
+
+<br><br><br>
+
+---
+
+### 🏠 Home Page
+
+<img width="1093" height="528" alt="image" src="https://github.com/user-attachments/assets/d05f857c-5ef7-4b47-9454-330b966f9825" />
+
+<br><br><br>
+
+---
+
+### 📊 Overview
+
+<img width="1127" height="623" alt="image" src="https://github.com/user-attachments/assets/1fe2aa1e-c7fb-4799-a107-0ca2b0238f77" />
+
+<br><br><br>
+
+---
+
+### ✈️ Airline Analysis
+
+<img width="1132" height="618" alt="image" src="https://github.com/user-attachments/assets/fe81edf4-ca75-4469-84ad-0fbb683dcb4c" />
+
+<br><br><br>
+
+---
+
+### 🛫 Airport Analysis
+
+<img width="1140" height="625" alt="image" src="https://github.com/user-attachments/assets/b0338a31-ef1b-46aa-baf5-5af08c8787fc" />
+
+<br><br><br>
+
+---
+
+### 🗺️ Routes Analysis
+
+<img width="1136" height="626" alt="image" src="https://github.com/user-attachments/assets/46ec3e48-6beb-40e6-b976-5a0ee5f43ce9" />
+
+<br><br><br>
+
+---
+
+### ⏱️ Delay Analysis
+
+<img width="1137" height="621" alt="image" src="https://github.com/user-attachments/assets/b88bd42e-1d4c-4f7a-9078-b26afe0a76e4" />
+
+<br><br><br>
+
+---
+
+### ❌ Cancellation & Diversion Analysis
+
+<img width="1140" height="622" alt="image" src="https://github.com/user-attachments/assets/1474fd21-f3d0-473b-8b9b-034ec93dc3e4" />
+
+<br><br><br>
+
+---
+
+### 👥 Passenger Satisfaction Analysis
+
+<img width="1132" height="618" alt="image" src="https://github.com/user-attachments/assets/efcc8864-977f-44a5-95dc-760df61ad2bb" />
+
+<br><br><br>
+
+---
+
 ## 💡 Key Insights & Project Outcomes
 
 The analysis provides a structured understanding of:
@@ -350,6 +623,9 @@ AeroNexus/
 │       ├── 📁 outlier_analysis/
 │       ├── 📁 data_quality/
 │       └── 📁 statistical_analysis/
+│
+├── 📊 Power BI/
+│   └── Harini - AeroNexus Project.pbix
 │
 ├── .gitignore
 └── README.md
