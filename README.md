@@ -441,57 +441,57 @@ The Passenger Satisfaction Analysis page explores satisfaction levels, passenger
 
 ### 📊 Overview
 
-<img width="1127" height="623" alt="image" src="https://github.com/user-attachments/assets/1fe2aa1e-c7fb-4799-a107-0ca2b0238f77" />
+<br>
 
+<img width="1127" height="623" alt="image" src="https://github.com/user-attachments/assets/1fe2aa1e-c7fb-4799-a107-0ca2b0238f77" />
 
 ---
 
 ### ✈️ Airline Analysis
 
-<img width="1132" height="618" alt="image" src="https://github.com/user-attachments/assets/fe81edf4-ca75-4469-84ad-0fbb683dcb4c" />
+<br>
 
-<br><br><br>
+<img width="1132" height="618" alt="image" src="https://github.com/user-attachments/assets/fe81edf4-ca75-4469-84ad-0fbb683dcb4c" />
 
 ---
 
 ### 🛫 Airport Analysis
 
-<img width="1140" height="625" alt="image" src="https://github.com/user-attachments/assets/b0338a31-ef1b-46aa-baf5-5af08c8787fc" />
+<br>
 
-<br><br><br>
+<img width="1140" height="625" alt="image" src="https://github.com/user-attachments/assets/b0338a31-ef1b-46aa-baf5-5af08c8787fc" />
 
 ---
 
 ### 🗺️ Routes Analysis
 
-<img width="1136" height="626" alt="image" src="https://github.com/user-attachments/assets/46ec3e48-6beb-40e6-b976-5a0ee5f43ce9" />
+<br>
 
-<br><br><br>
+<img width="1136" height="626" alt="image" src="https://github.com/user-attachments/assets/46ec3e48-6beb-40e6-b976-5a0ee5f43ce9" />
 
 ---
 
 ### ⏱️ Delay Analysis
 
-<img width="1137" height="621" alt="image" src="https://github.com/user-attachments/assets/b88bd42e-1d4c-4f7a-9078-b26afe0a76e4" />
+<br>
 
-<br><br><br>
+<img width="1137" height="621" alt="image" src="https://github.com/user-attachments/assets/b88bd42e-1d4c-4f7a-9078-b26afe0a76e4" />
 
 ---
 
 ### ❌ Cancellation & Diversion Analysis
 
+<br>
 
 <img width="1140" height="622" alt="image" src="https://github.com/user-attachments/assets/1474fd21-f3d0-473b-8b9b-034ec93dc3e4" />
-
 
 ---
 
 ### 👥 Passenger Satisfaction Analysis
 
+<br>
 
 <img width="1132" height="618" alt="image" src="https://github.com/user-attachments/assets/efcc8864-977f-44a5-95dc-760df61ad2bb" />
-
-<br><br><br>
 
 ---
 
